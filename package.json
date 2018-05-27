@@ -1,0 +1,18 @@
+{
+  "name": "node-rabbitmq",
+  "version": "1.0.0",
+  "description": "nodejs implementation with rabbitmq as message broker",
+  "main": "producer.js",
+  "repository": "git@github.com:fuadajip/node-rabbitmq.git",
+  "author": "fuadajip <fuadajipratomo@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "producer": "node producer.js",
+    "consumer": "node consumer.js"
+  },
+  "dependencies": {
+    "amqplib": "^0.5.2",
+    "dotenv": "^5.0.1"
+  }
+}
